@@ -94,7 +94,7 @@ button#date {
 }
 
 aside#resultados {
-    display: block;
+    display: none;
     background-color: #848484;
     width: 56%;
     text-align: center;
