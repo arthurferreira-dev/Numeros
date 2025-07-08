@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sunuwar&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --sunuwar: 'Noto Sans Sunuwar', Arial, Helvetica, Verdana, sans-serif;
+    --inter: 'Inter', Helvetica, Arial, sans-serif;
+    --padding: 8px;
+    --background: #a6b1b1;
+    --radius-pixel: 7px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-size: 1em;
+    font-family: var(--sunuwar);
+    background-color: #b5bfbf;
+}
+
+header {
+    padding: var(--padding);
+    background-color: var(--background);
+    margin-bottom: 12px;
+}
+
+header > h1#title {
+    text-align: center;
+    font-size: 2.25em;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    background-color: #929e9c;
+    padding: var(--padding);
+    font-family: var(--inter);
+    border-top-left-radius: var(--radius-pixel);
+    border-bottom-right-radius: var(--radius-pixel);
+    text-align: center;
+}
+
+input[type=number]#number {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: var(--padding);
+    background-color: var(--background);
+    text-align: center;
+    margin-top: 12px;
+    font-size: 1.09em;
+}
+
+#github {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    transition-duration: .40s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: none;
+    border-radius: var(--radius-pixel);
+    padding: var(--padding);
+}
+
+button#date {
+    background-color: #5f23eb;
+    color: #fff;
+    font-size: 1.009em;
+}
+
+aside#resultados {
+    display: block;
+    background-color: #848484;
+    width: 56%;
+    text-align: center;
+    margin: auto;
+    padding: var(--padding);
+    line-height: 1.7em;
+    border-top-left-radius: var(--radius-pixel);
+    border-top-right-radius: var(--radius-pixel);
+}
